@@ -8,7 +8,7 @@ package singleton;
  * IDE: IntelliJ IDEA
  **/
 
-//Please note that this class and all variable and method names can be named as you like. It doesn't have to carry the singleton name
+//Please note that this class and all variable and method names can be names as you like. It doesn't have to carry the singleton name
 public class Singleton {
   //Create a private constructor so that objects of this class cannot be created outside the class
   private Singleton(){}
