@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 /**
  * Created by tobilobaowolabi on 29/08/2021

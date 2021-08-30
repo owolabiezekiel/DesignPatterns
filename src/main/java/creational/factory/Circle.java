@@ -1,8 +1,6 @@
-package factory;
+package creational.factory;
 
 import java.util.Scanner;
-
-import static java.awt.geom.Arc2D.PIE;
 
 /**
  * Created by tobilobaowolabi on 29/08/2021

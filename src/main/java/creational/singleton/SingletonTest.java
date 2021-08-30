@@ -1,4 +1,4 @@
-package singleton;
+package creational.singleton;
 
 /**
  * Created by tobilobaowolabi on 29/08/2021
@@ -14,7 +14,7 @@ public class SingletonTest {
     /*
     * We test this class by creating two instances of the Singleton class,
     * We then print the hashcode of the two variables.
-    * If they are the same, then it means that the singleton class returns the same instance of singleton for every call to getInstance */
+    * If they are the same, then it means that the creational.singleton class returns the same instance of creational.singleton for every call to getInstance */
 
 	Singleton singleton1 = Singleton.getInstance();
 	Singleton singleton2 = Singleton.getInstance();
