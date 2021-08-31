@@ -9,9 +9,10 @@ import java.util.Scanner;
  * Project: DesignPatterns
  * IDE: IntelliJ IDEA
  **/
-public class Circle implements Shape{
-  /*
-  * The Circle class implements the Shape interface and therefore must provide all the  implementations as required by the Shape interface. */
+public class Circle implements Shape {
+  /**
+   * The Circle class implements the Shape interface and therefore must provide all the  implementations as required by the Shape interface.
+   */
   @Override
   public void draw() {
 	System.out.println("Inside Circle::draw() method.");

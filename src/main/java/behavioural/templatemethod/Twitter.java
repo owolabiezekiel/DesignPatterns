@@ -7,7 +7,7 @@ package behavioural.templatemethod;
  * Project: DesignPatterns
  * IDE: IntelliJ IDEA
  **/
-public class Twitter extends BaseNetwork{
+public class Twitter extends BaseNetwork {
   /**
    * You can see that Twitter didnt have to declare its userName and Passwords fields. It got them from the base class
    * Also, this sub class can have other methods that dont even exists in the base class
@@ -18,6 +18,7 @@ public class Twitter extends BaseNetwork{
 	this.networkName = this.getClass().getName();
   }
 
+  //Concrete implementation of the abstract login method
   public boolean logIn(String userName, String password) {
 	System.out.println("\nTwitter is checking user's parameters");
 	System.out.println("Name: " + this.userName);
@@ -30,6 +31,7 @@ public class Twitter extends BaseNetwork{
 	return true;
   }
 
+  //Concrete implementation of the abstract sendData method
   public boolean sendData(byte[] data) {
 	boolean messagePosted = true;
 	if (messagePosted) {
@@ -40,10 +42,12 @@ public class Twitter extends BaseNetwork{
 	}
   }
 
+  //Concrete implementation of the abstract logOut method
   public void logOut() {
 	System.out.println("User: '" + userName + "' was logged out from Twitter");
   }
 
+  //Other methods not in base class are also allowed
   private void simulateNetworkLatency() {
 	char[] networkNameCharacterArray = this.networkName.toCharArray();
 	try {

@@ -7,7 +7,7 @@ package behavioural.templatemethod;
  * Project: DesignPatterns
  * IDE: IntelliJ IDEA
  **/
-public class Facebook extends BaseNetwork{
+public class Facebook extends BaseNetwork {
   /**
    * You can see that Facebook didnt have to declare its userName and Passwords fields. It got them from the base class
    * Also, this sub class can have other methods that dont even exists in the base class
