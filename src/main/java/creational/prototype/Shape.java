@@ -13,6 +13,7 @@ public abstract class Shape implements Cloneable{
 
   abstract void draw();
   abstract double calculateArea();
+
   public String getType(){
 	return type;
   }
